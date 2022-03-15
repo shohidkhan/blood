@@ -177,11 +177,7 @@ margin: 20px 0;
     height: 100vh;
 }
 
-.all-btn button{
-    padding: 10px 50px;
-    width: 100%;
-    max-width: 200px;
-}
+
 .fb-btn button{
     background-color: #48629b;
     color: #fff;
