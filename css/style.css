@@ -221,7 +221,7 @@ margin: 20px 0;
     align-items: center;
 }
 .line{
-    width: 500px;
+    width: 100%;
     height: 1px;
     background-color: #cacaca;
     margin: 0 5px;
@@ -259,7 +259,7 @@ margin: 20px 0;
     text-align: center;
 }
 .profile_line{
-    width: 135px;
+    width: 25%;
     height: 1px;
     background-color: #cacaca;
     margin: 0 5px;
@@ -327,7 +327,9 @@ margin: 20px 0;
     .two_btn{
         text-align: center;
     }
-    .profile_line{
-        width: 80px;
+    .some_verified{
+        padding: 0;
+    }.blood-request-container{
+        margin-bottom: 30px;
     }
 }

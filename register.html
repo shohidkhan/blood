@@ -1,16 +1,18 @@
+
+   
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">                       
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rakto</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom css style -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- font awesome -->
+    <link rel="stylesheet" href="css/register.css">
+    <!--- font awesome --->
     <script src="https://kit.fontawesome.com/559151fdfc.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,35 +21,38 @@
 
     </header>
     <main>
-        <section class="container">
-            <div>
-                <div class="row">
-                    <div class=" col-lg-6 btn-register-container d-flex align-items-center justify-content-center">
-                        <div class="all-btn">
-                            <div class="fb-btn mb-2">
-                                <button class="btn rounded-pill" type="submit"> <i class="fa-brands fa-facebook-f"></i>
-                                    <span class="ms-2">Facebook</span></button>
-                            </div>
-                            <div class="google-btn mb-2">
-                                <button class="btn  rounded-pill" type="submit"> <i
-                                        class="fa-brands fa-goodreads-g"></i> <span class="ms-2">Google</span></button>
-                            </div>
-                            <div class="linkedin-btn mb-2">
-                                <button class="btn rounded-pill" type="submit"> <i class="fa-brands fa-linkedin-in"></i>
-                                    <span class="ms-2">Linkedin</span></button>
+        <section id="login-form">
+            <div class="container">
+                <div class="row m-auto">
+                    <div class="col-lg-6 col-12 register-form m-lg-auto ">
+                        <div class="login_form">
+                            <div class="">
+                                <form action="" class="w-100">
+                                    <input class="form-control form-control-lg mb-2 w-100" type="number"
+                                        placeholder="Phone Number" aria-label=".form-control-lg example" required>
+                                    <input class="form-control form-control-lg mb-2 w-100" type="email"
+                                        placeholder="Email" aria-label=".form-control-lg example" required>
+                                    <input class="form-control form-control-lg mb-2 w-100" type="password"
+                                        placeholder="Password" aria-label=".form-control-lg example" required>
+                                    <button type="submit" class="btn submit-btn shadow-lg">REGISTER</button>
+                                </form>
+                                <div class="all-btn d-flex">
+                                    <div class="fb-btn mb-2 mx-2">
+                                        <button class="btn rounded-circle" type="submit"> <i
+                                                class="fa-brands fa-facebook-f"></i></button>
+                                    </div>
+                                    <div class="google-btn mb-2 mx-2">
+                                        <button class="btn  rounded-circle" type="submit"> <i
+                                                class="fa-brands fa-goodreads-g"></i></button>
+                                    </div>
+                                    <div class="linkedin-btn mb-2 mx-2">
+                                        <button class="btn rounded-circle " type="submit"> <i
+                                                class="fa-brands fa-linkedin-in"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 register-form d-flex align-items-center">
-                        <form action="" class="w-100">
-                            <input class="form-control form-control-lg mb-2 w-100" type="number"
-                                placeholder="Phone Number" aria-label=".form-control-lg example" required>
-                            <input class="form-control form-control-lg mb-2 w-100" type="email" placeholder="Email"
-                                aria-label=".form-control-lg example" required>
-                            <input class="form-control form-control-lg mb-2 w-100" type="password"
-                                placeholder="Password" aria-label=".form-control-lg example" required>
-                            <button type="submit" class="btn submit-btn shadow-lg">REGISTER</button>
-                        </form>
                     </div>
                 </div>
             </div>
