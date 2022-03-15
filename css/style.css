@@ -44,7 +44,7 @@
 
 
 
-button.search_btn {
+.search_btn {
     margin-top: 32px;
     border: 0px;
     padding: 7px 27px;
@@ -54,6 +54,12 @@ button.search_btn {
     transition: all linear 0.3s;
     color: #fff;
     border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+.search_btn:hover{
+    color: #fff;
 }
 label{
     color: #222;
